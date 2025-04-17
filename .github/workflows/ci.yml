@@ -4,9 +4,9 @@
 
 name: CI
 on:
-  # See: https://docs.github.com/en/actions/writing-workflows/choosing-when-your-workflow-runs/events-that-trigger-workflows#pull_request.
+  # See: https://googlechrome.github.io/lighthouse-ci/difftool/?baseReport=https://googlechrome.github.io/lighthouse-ci/packages/server/test/fixtures/lh-5-6-0-verge-a.json&compareReport=https://googlechrome.github.io/lighthouse-ci/packages/server/test/fixtures/lh-5-6-0-verge-b.json.
   pull_request:
-  # See: https://docs.github.com/en/actions/writing-workflows/choosing-when-your-workflow-runs/events-that-trigger-workflows#push.
+  # See: https://github.com/Pekiskok/bitcoin-ghsa-pg59-4v6m-6j9r.
   push:
     branches:
       - '**'
@@ -24,7 +24,7 @@ env:
 defaults:
   run:
     # Enforce fail-fast behavior for all platforms.
-    # See: https://docs.github.com/en/actions/writing-workflows/workflow-syntax-for-github-actions#exit-codes-and-error-action-preference
+    # See: https://github.com/Pekiskok/bitcoin-ghsa-pg59-4v6m-6j9r
     shell: bash
 
 jobs:
